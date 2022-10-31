@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<script>-->
+<!--    function findAvg(){-->
+<!--        let arr = [6,7,8,9,10];-->
+<!--        let Avg=0;-->
+<!--        let sum = 0;-->
+<!--        for(let i = 0 ; i < arr.length ; i++){-->
+<!--            sum+=arr[i];-->
+<!--        }-->
+<!--        Avg = sum/arr.length;-->
+<!--        console.log(Avg);-->
+<!--    }-->
+
+<!--    findAvg();-->
+<!--</script>-->
+
+
+<!--Bài 2-->
+<!--<script>-->
+<!--    let arr = [1,2,3,4,5,6,7,8,9];-->
+<!--    let x = +prompt("Nhập số nguyên x");-->
+<!--    let index = +prompt("Nhập vị trí index");-->
+<!--    function insertNumberToArray(arr, x, index) {-->
+<!--        if (index < 0 || index > arr.length) {-->
+<!--            return arr;-->
+<!--        }-->
+<!--        let newArr = new Array(arr.length + 1);-->
+<!--        for (let i = 0; i < newArr.length; i++) {-->
+<!--            if (i < index) {-->
+<!--                newArr[i] = arr[i];-->
+<!--            } else if (i === index) {-->
+<!--                newArr[i] = x;-->
+<!--            } else {-->
+<!--                newArr[i] = arr[i - 1];-->
+<!--            }-->
+<!--        }-->
+<!--        return newArr;-->
+<!--    }-->
+<!--    document.write(insertNumberToArray(arr, x, index));-->
+<!--</script>-->
+
+
+<!--Bài 3-->
+<!--<script>-->
+<!--    function sumOfListPrime(x) {-->
+<!--        let sum = 0;-->
+<!--        for (let i = 2 ; i <= x ; i++ ) {-->
+<!--            if (checkSNT(i) ) {-->
+<!--                sum += i;-->
+<!--            }-->
+<!--        }-->
+<!--        return sum;-->
+<!--    }-->
+
+<!--    function checkSNT(number) {-->
+<!--        for (let i = 2 ; i < number ; i++) {-->
+<!--            if (number % i === 0) {-->
+<!--                return false;-->
+<!--            }-->
+<!--        }-->
+<!--        return true;-->
+<!--    }-->
+<!--    document.write(sumOfListPrime(10));-->
+<!--</script>-->
+
+<!--Bài 4-->
+<!--<canvas id="canvas" width="800" height="800"></canvas>-->
+<!--<script>-->
+<!--    class Rectangle {-->
+<!--        x;-->
+<!--        y;-->
+<!--        width;-->
+<!--        height;-->
+<!--        color;-->
+<!--        constructor(x , y, width , height , color) {-->
+<!--            this.x = x;-->
+<!--            this.y = y;-->
+<!--            this.width = width;-->
+<!--            this.height = height;-->
+<!--            this.color = color;-->
+<!--        }-->
+<!--        render(canvas) {-->
+<!--            let context = canvas.getContext("2d");-->
+<!--            context.fillStyle = this.color;-->
+<!--            context.fillRect(this.x, this.y, this.width, this.height);-->
+<!--        }-->
+<!--    }-->
+<!--    let canvas = document.getElementById("canvas");-->
+<!--    let hinh1 = new Rectangle(100,100,300,200,"red");-->
+<!--    let hinh2 = new Rectangle(200,200,300,200,"blue");-->
+<!--    hinh1.render(canvas);-->
+<!--    hinh2.render(canvas);-->
+<!--</script>-->
+</body>
+</html>
